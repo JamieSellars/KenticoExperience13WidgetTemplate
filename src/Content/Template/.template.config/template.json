@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Jamie Sellars",
+  "classifications": ["Web", "ASP.NET"],
+  "name": "kenticoExperienceWidget",
+  "defaultName": "Widget",
+  "description": "Kentico Xperience widget component template",
+  "identity": "Jamiesellars.kentico.xperience.widget",
+  "shortName": "x13widget",
+  "tags": {
+    "type": "item"
+  },
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "description": "Name of the project you're adding a widget to",
+      "defaultValue": "ProjectName",
+      "replaces": "Template"
+    },
+    "WidgetName": {
+      "type": "parameter",
+      "description": "Name of your new widget",
+      "defaultValue": "Widget",
+      "replaces": "WidgetName",
+      "fileRename": "WidgetName"
+    }
+  },
+  "sources": [
+    {
+      "include": [ "WidgetNameWidget/**"]     
+    }
+  ]
+}
