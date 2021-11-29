@@ -15,10 +15,9 @@ Options:
 
 | Parameter |  Parameter name  |  Description | Example  |
 |---|---|---|---|
-| -P  |  ProductName  |  Creates a namespace based on the project name | PartyPalace |   
+| -P  |  ProjectName  |  Creates a namespace based on the project name | PartyPalace |   
 | -W |  WidgetName | Provides a name to the widget, used on file, folders and class names | PartyPopper |   
 
-After executing the document you will be presented with the following folder structure
 
 `dotnet new x13widget -P PartyPalace -W PartyPopper`
 
